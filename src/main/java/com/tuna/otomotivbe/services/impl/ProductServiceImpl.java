@@ -3,11 +3,9 @@ package com.tuna.otomotivbe.services.impl;
 import com.tuna.otomotivbe.dao.IProductDao;
 import com.tuna.otomotivbe.dao.IUserDao;
 import com.tuna.otomotivbe.entities.Image;
-import com.tuna.otomotivbe.entities.Purchase;
-import com.tuna.otomotivbe.entities.User;
-import com.tuna.otomotivbe.payload.request.ProductRequest;
 import com.tuna.otomotivbe.entities.Product;
 import com.tuna.otomotivbe.exceptionhandling.ResourceNotFoundException;
+import com.tuna.otomotivbe.payload.request.ProductRequest;
 import com.tuna.otomotivbe.repository.PurchaseRepository;
 import com.tuna.otomotivbe.services.IProductService;
 import com.tuna.otomotivbe.util.ImageUtility;
@@ -17,7 +15,6 @@ import org.springframework.web.multipart.MultipartFile;
 
 import java.io.IOException;
 import java.util.List;
-import java.util.Optional;
 
 @Service
 public class ProductServiceImpl implements IProductService {

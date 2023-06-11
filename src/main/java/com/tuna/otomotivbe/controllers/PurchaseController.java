@@ -18,6 +18,7 @@ public class PurchaseController {
     @Autowired
     private IPurchaseService purchaseService;
 
+
     @PostMapping(value = "/{id}")
     @PreAuthorize("hasRole('ROLE_USER')")
     public ResponseEntity<?> purchaseProduct(@PathVariable Long id) {
@@ -30,15 +31,5 @@ public class PurchaseController {
         return ResponseEntity.ok(new MessageResponse("Product purchased successfully."));
     }
 
-   /* @GetMapping(ApiConstant.END_POINT_GET_USER_PURCHASES)
-    @PreAuthorize("hasRole('ROLE_USER')")
-    public ResponseEntity<?> getUserPurchases() {
-        Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
-        String userName = authentication.getName();
-
-        List<Purchase> purchases = productService.getUserPurchases(userName);
-
-        return ResponseEntity.ok(purchases);
-    }*/
 
 }

@@ -1,9 +1,9 @@
 package com.tuna.otomotivbe.controllers;
 
+import com.tuna.otomotivbe.constants.ApiConstant;
 import com.tuna.otomotivbe.entities.ERole;
 import com.tuna.otomotivbe.entities.Role;
 import com.tuna.otomotivbe.entities.User;
-import com.tuna.otomotivbe.constants.ApiConstant;
 import com.tuna.otomotivbe.payload.request.LoginRequest;
 import com.tuna.otomotivbe.payload.request.SignupRequest;
 import com.tuna.otomotivbe.payload.response.JwtResponse;

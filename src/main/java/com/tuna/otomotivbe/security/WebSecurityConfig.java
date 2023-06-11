@@ -74,6 +74,9 @@ public class WebSecurityConfig { // extends WebSecurityConfigurerAdapter {
     private static final String[] AUTH_WHITELIST = {
             "/api/auth/**",
             "/api/products/**",
+            "/api/admin/**",
+            "/api/admin/addProduct",
+            "/api/admin/updateProduct",
             "/api/user/**",
     };
 

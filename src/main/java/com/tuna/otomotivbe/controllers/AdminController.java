@@ -1,7 +1,6 @@
 package com.tuna.otomotivbe.controllers;
 
 import com.tuna.otomotivbe.constants.ApiConstant;
-import com.tuna.otomotivbe.constants.DbConstant;
 import com.tuna.otomotivbe.payload.request.ProductRequest;
 import com.tuna.otomotivbe.payload.response.MessageResponse;
 import com.tuna.otomotivbe.services.IAdminService;

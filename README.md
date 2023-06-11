@@ -1,4 +1,4 @@
-# Otomoti_be Projesi
+# Otomotiv_be Projesi
 
 Otomotiv Projesi, otomotiv yedek parçalarının satılabileceği bir e-ticaret platformudur. Bu projede, admin tarafından eklenen ürünlerin güncellenebilmesi ve silinebilmesi sağlanır. Kullanıcılar kayıt olarak sisteme giriş yapabilir ve kayıt olduktan sonra e-posta doğrulaması yaparak hesabını aktif hale getirebilir. Ayrıca, beş defa hatalı giriş yapan kullanıcılar otomatik olarak engellenir ve engellemeyi sadece admin kaldırabilir. Kullanıcıların hatalı girişleri ise "project.log" dosyasında loglanır.
 

@@ -25,5 +25,4 @@ public class DataLoader implements ApplicationRunner {
         roleRepository.save(role);
     }
 
-
 }

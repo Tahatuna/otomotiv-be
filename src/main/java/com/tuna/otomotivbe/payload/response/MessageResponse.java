@@ -1,2 +1,13 @@
-package com.tuna.otomotivbe.payload.response;public class MessageResponse {
+package com.tuna.otomotivbe.payload.response;
+
+import lombok.Data;
+
+@Data
+public class MessageResponse {
+    private String message;
+
+    public MessageResponse(String message) {
+        this.message = message;
+    }
+
 }

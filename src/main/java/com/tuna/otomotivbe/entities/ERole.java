@@ -1,4 +1,4 @@
-package com.tuna.otomotivbe.Entites;
+package com.tuna.otomotivbe.entities;
 
 public enum ERole {
     ROLE_USER,

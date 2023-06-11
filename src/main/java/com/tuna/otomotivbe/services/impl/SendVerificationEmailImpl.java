@@ -10,13 +10,13 @@ import org.springframework.mail.javamail.MimeMessageHelper;
 import org.springframework.stereotype.Service;
 
 @Service
-public class ImplSendVerificationEmail implements ISendVerificationEmail {
+public class SendVerificationEmailImpl implements ISendVerificationEmail {
 
     @Autowired
     private JavaMailSender javaMailSender;
 
     @Autowired
-    UserRepository userRepository;
+    private UserRepository userRepository;
 
     public void mailSender(User user) {
         try {
@@ -35,6 +35,6 @@ public class ImplSendVerificationEmail implements ISendVerificationEmail {
         } catch (Exception e) {
             System.out.println("Mail gönderimi sırasında bir hata oluştu");
         }
-
     }
+
 }

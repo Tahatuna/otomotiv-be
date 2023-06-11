@@ -1,12 +1,9 @@
 package com.tuna.otomotivbe.constants;
 
 import jakarta.persistence.Column;
-import jakarta.persistence.JoinColumn;
 import jakarta.validation.constraints.NotBlank;
 
-import java.math.BigDecimal;
-
-public class DbCostant {
+public class DbConstant {
 
     //tbl
     public static final String TBL_USERS = "USERS";
@@ -14,6 +11,8 @@ public class DbCostant {
     public static final String TBL_USER_ROLES = "USER_ROLES";
     public static final String TBL_PURCHASES = "PURCHASES";
     public static final String TBL_PRODUCT = "PRODUCT";
+    public static final String TBL_CREDIT_CARD = "CREDIT_CAR";
+    public static final String TBL_IMAGE = "IMAGE";
 
     //col
     public static final String COL_USER_NAME = "USER_NAME";
@@ -35,5 +34,12 @@ public class DbCostant {
     public static final String COL_DESCRIPTION = "DESCRIPTION";
     public static final String COL_PRICE = "PRICE";
     public static final String COL_STOCK = "STOCK";
+    public static final String COL_FILE_NAME = "FILE_NAME";
+    public static final String COL_FILE_TYPE = "FILE_TYPE";
+    public static final String COL_IMAGE_ID = "IMAGE_ID";
+    public static final String COL_CARD_NUMBER = "CARD_NUMBER";
+    public static final String COL_CARDHOLDER_NAME = "CARDHOLDER_NAME";
+    public static final String COL_EXPIRY_DATE = "EXPIRY_DATE";
+
 
 }

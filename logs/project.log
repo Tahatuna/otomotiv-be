@@ -1,0 +1,4 @@
+[1;31m18:52:56.872 [http-nio-8080-exec-5] ERROR AuthEntryPointJwt.commence - Unauthorized error: Full authentication is required to access this resource
+[m[1;31m18:52:59.993 [http-nio-8080-exec-7] ERROR AuthEntryPointJwt.commence - Unauthorized error: Full authentication is required to access this resource
+[m[1;31m18:53:52.397 [http-nio-8080-exec-1] ERROR AuthEntryPointJwt.commence - Unauthorized error: Full authentication is required to access this resource
+[m

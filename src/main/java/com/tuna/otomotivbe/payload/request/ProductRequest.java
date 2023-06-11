@@ -1,4 +1,4 @@
-package com.tuna.otomotivbe.dto;
+package com.tuna.otomotivbe.payload.request;
 
 import jakarta.validation.constraints.NotBlank;
 import lombok.Data;
@@ -10,7 +10,7 @@ import java.math.BigDecimal;
 @Data
 @ToString
 @RequiredArgsConstructor
-public class ProductDto {
+public class ProductRequest {
 
     @NotBlank
     private String productName;

@@ -22,7 +22,6 @@ Uygulama çalıştırıldığında, aşağıdaki adımları izleyerek "roles" ta
 INSERT INTO roles(name) VALUES ('ROLE_USER');
 INSERT INTO roles(name) VALUES ('ROLE_ADMIN');
 
-Postman Koleksiyonu
 Postman kullanarak aşağıdaki HTTP isteklerini gönderebilirsiniz. İstekleri gönderirken, isteklere ait Bearer Token'ları eklemeyi unutmayınız. Postman koleksiyonu, proje dosyasının ana dizini altında bulunan "otomotiv_postman_collection.json" dosyasında yer almaktadır.
 
 

@@ -23,7 +23,7 @@ public class SendVerificationEmailImpl implements ISendVerificationEmail {
             MimeMessage message = javaMailSender.createMimeMessage();
             MimeMessageHelper helper = new MimeMessageHelper(message, true);
 
-            helper.setFrom("ttahattuna@gmail.com");
+            helper.setFrom("");
             helper.setTo(user.getEmail());
             helper.setSubject("Hesap Doğrulama");
 
